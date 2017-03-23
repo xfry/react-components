@@ -2,9 +2,6 @@
 import React from "react";
 
 class ApplicationList extends React.Component{
-  comstructor() {
-    super();
-  }
   render() {
     return (
       <div>
