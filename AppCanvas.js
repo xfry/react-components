@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 import {Table} from 'react-materialize';
 
 const canvaStyle = {
-  backgroundColor: 'gold',
   width: '100%'
 };
 
@@ -12,7 +11,7 @@ class Appcanvas extends React.Component{
   render() {
     return (
       <div style={canvaStyle} className="canvas-app">
-        <Table>
+        <Table bordered >
           <thead>
             <tr>
               <th data-field="id">Flag</th>
@@ -28,11 +27,15 @@ class Appcanvas extends React.Component{
             <tr>
               <td></td>
               <td>
-                <Link to="/pcte">PCTE</Link>
+                <Link to="app/canvas/pcte">PCTE</Link>
               </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
-              <td></td>
+
             </tr>
           </tbody>
         </Table>
