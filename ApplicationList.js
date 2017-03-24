@@ -7,7 +7,7 @@ class ApplicationList extends React.Component{
     return (
       <div>
         <ul>
-          <Link to="app/canvas"> <li>PCTE canvas</li> </Link>
+          <Link to="app/canvas"> <li>Applications</li> </Link>
           {this.props.children}
         </ul>
       </div>
